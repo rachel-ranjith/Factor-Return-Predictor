@@ -148,14 +148,6 @@ class ModelConfig:
 - Portfolio optimization layer (convert predictions to positions)
 - Sector-neutral constraints
 
-## Interview Talking Points
-
-1. **Why walk-forward?** Prevents lookahead bias that inflates backtest results
-2. **Why IC over R²?** IC (rank correlation) is more robust for return prediction
-3. **Why coefficients change?** Factor loadings aren't stable—what works in trending markets fails in mean-reverting ones
-4. **Why negative R²?** Model is worse than mean prediction OOS—honest result for a hard problem
-5. **What would you improve?** Cross-sectional features, regime detection, non-linear models
-
 ## Requirements
 
 - Python 3.11+
